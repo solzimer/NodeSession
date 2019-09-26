@@ -30,7 +30,7 @@ npm install node-session
 **Initialization**
 
 ```javascript
-var NodeSession = require('node-session');
+var NodeSession = require('node-session2');
 
 // init
 session = new NodeSession({secret: 'Q3UBzdH9GEfiRCTKbi5MTPyChpzXLsTD'});
@@ -134,7 +134,7 @@ req.session.keep('username', 'email');
 ## CSRF Token
 
 By default NodeSession generates and keeps CSRF token for your application in session.
- 
+
 **Access CSRF token**
 
 ```javascript
@@ -380,4 +380,3 @@ debugging and developing.
 ## License
 
 The NodeSession is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-

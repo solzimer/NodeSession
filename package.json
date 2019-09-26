@@ -1,5 +1,5 @@
 {
-  "name": "node-session",
+  "name": "node-session2",
   "version": "1.2.1",
   "description": "Session management for NodeJS",
   "main": "index.js",
@@ -13,11 +13,11 @@
     "dot-access": "0.0.5",
     "encrypter": "1.0.0-beta",
     "fs-extra": "^0.24.0",
-    "lodash": "^3.6.0",
+    "lodash": "^4.17.15",
     "on-headers": "^1.0.0",
     "proxy-addr": "^1.0.7",
     "uid-safe": "^2.1.1",
-    "waterline": "^0.10.21"
+    "waterline": "^0.13.6"
   },
   "repository": {
     "type": "git",
@@ -42,8 +42,8 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.12.3",
-    "mocha": "^2.2.4",
-    "sails-disk": "^0.10.7",
+    "mocha": "^6.2.0",
+    "sails-disk": "^1.1.2",
     "should": "^6.0.1",
     "sinon": "^1.14.1",
     "supertest": "^0.15.0"
