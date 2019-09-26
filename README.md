@@ -1,6 +1,9 @@
 NodeSession
 ===========
 
+This is a fork of the original [NodeSession](https://github.com/quorrajs/NodeSession), with updated packages for audit security reasons.
+
+
 Since HTTP driven applications are stateless, sessions provide a way to store information about the user across requests.
 NodeSession ships with a variety of session back-ends available for use through a clean, unified API. Support for
 back-ends such as File and databases is included out of the box.
