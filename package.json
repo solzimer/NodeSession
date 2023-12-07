@@ -8,16 +8,16 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "cookie": "^0.1.2",
-    "cookie-signature": "^1.0.6",
-    "dot-access": "0.0.5",
+    "cookie": "^0.6.0",
+    "cookie-signature": "^1.2.1",
+    "dot-access": "^1.0.0",
     "encrypter": "1.0.0-beta",
-    "fs-extra": "^0.24.0",
-    "lodash": "^4.17.15",
-    "on-headers": "^1.0.0",
-    "proxy-addr": "^1.0.7",
-    "uid-safe": "^2.1.1",
-    "waterline": "^0.13.6"
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21",
+    "on-headers": "^1.0.2",
+    "proxy-addr": "^2.0.7",
+    "uid-safe": "^2.1.5",
+    "waterline": "^0.15.2"
   },
   "repository": {
     "type": "git",
@@ -42,10 +42,10 @@
   "license": "MIT",
   "devDependencies": {
     "express": "^4.12.3",
-    "mocha": "^6.2.0",
-    "sails-disk": "^1.1.2",
+    "mocha": "^10.2.0",
+    "sails-disk": "^2.1.2",
     "should": "^6.0.1",
     "sinon": "^1.14.1",
-    "supertest": "^0.15.0"
+    "supertest": "^6.3.3"
   }
 }
